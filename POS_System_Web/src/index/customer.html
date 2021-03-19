@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>THOGA KADE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../asserts/css/bootstrap.css">
+    </head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark  ">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="Pos_main.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="customer.html">CUSTOMER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="item.html">ITEM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="orders.html">ORDER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="order_details.html">ORDER DETAILS</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light bg-danger" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid mt-5" id="customerform">
+
+
+
+<div><h1 class="text-center text-danger"> CUSTOMER FORM</h1></div>
+
+<div class="">
+    <div class="bg-white card card w-auto">
+       <div class="card w-100">
+        <div class="card-header text-white" style="font-size: 23px; background:black">
+            Manage Customers
+        </div>
+        <div class="card-body bg-white text-dark">
+            <div class="row p-2 mt-1">
+                <div class="form-group col-12">
+                    <lable>Customer ID</lable>
+                    <input type="text" id="txtCustomerId" class="form-control">
+                </div>
+            </div>
+            <div class="row p-2 mt-0">
+                <div class="form-group col-12">
+                    <lable>Customer Name</lable>
+                    <input type="text" id="txtCustomerName" class="form-control" >
+                </div>
+            </div>
+            <div class="row p-2 mt-0">
+                <div class="form-group col-12">
+                    <lable>Customer Address</lable>
+                    <input type="text" id="txtCustomerAddress" class="form-control" >
+                </div>
+            </div>
+            <div class="row p-2 mt-0">
+                <div class="form-group col-12">
+                    <lable>Customer Contact</lable>
+                    <input type="text" id="txtCustomerContact" class="form-control" >
+                </div>
+            </div>
+            <div class="row p-2 mt-0">
+                <div class="form-group col-12">
+                    <label>Date Of Birth</label>
+                    <input  id="dateofbirth" class="form-control" type="date">
+                </div>
+            </div>
+            <div class="row p-2 mt-0">
+                <div class="form-group col-12">
+                    <label>Gender</label>
+                    <select aria-label="Default select example" class="form-select" id="cmbGender">
+                        <option value="0"></option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row p-1 mt-5" align="right">
+                <div class="form-group">
+                    <button type="button" class="btn bg-success text-white fw-bold">ADD</button>
+                    <button type="button" class="btn bg-info text-white fw-bold">UPDATE</button>
+                    <button type="button" class="btn bg-danger text-white fw-bold">DELETE</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="col-sm-12">
+        <div class="row p-2 mt-1">
+
+            <table class="table table-hover border mt-1">
+                <thead class="text-white" style="background:black ">
+                <tr>
+                    <th scope="col">Customer ID</th>
+                    <th scope="col">Customer Name</th>
+                    <th scope="col">Customer Address</th>
+                    <th scope="col">Customer Contact</th>
+                    <th scope="col">Date Of Birth</th>
+                    <th scope="col">Gender</th>
+                </tr>
+                </thead>
+                <tbody class="" style="background: white">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">9</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">10</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">11</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">12</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">13</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">14</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">15</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">16</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">17</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">18</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">19</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</div>
+<script src="../asserts/js/bootstrap.js"></script>
+</body>
+</html>
